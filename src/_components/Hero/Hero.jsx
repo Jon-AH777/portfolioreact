@@ -3,7 +3,7 @@ import profile_img from "/profile.jpg";
 
 const Hero = () => {
   return (
-    <div id="home" className="flex items-center flex-col gap-[20px]">
+    <div id="home" className="flex items-center flex-col gap-5 mt-20">
       <img
         className="mt-[10px] h-[250px] rounded-[50%]"
         src={profile_img}
@@ -18,11 +18,11 @@ const Hero = () => {
       <p className="w-[50%] text-center text-xl">
         I'm a frontend web developer
       </p>
-      <div className="flex items-center mt-3 gap-6 text-[20px] font-medium mb-12">
-        <div className="py-6 px-11 rounded-[50px] bg-button cursor-pointer hover:border-2 hover:border-solid hover:border-white">
+      <div className="flex items-center mt-3 gap-6 text-xl font-medium mb-12">
+        <div className="py-4 px-11 rounded bg-button cursor-pointer">
           Contact me
         </div>
-        <div className="py-6 px-11 rounded-[50px] border-2 border-solid border-white hover:border-resume">
+        <div className="py-4 px-11 rounded border-[1px] border-solid border-black hover:border-resume">
           My resume
         </div>
       </div>

@@ -7,7 +7,7 @@ const MyProjects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center gap-[80px] my-20 mx-[170px]"
+      className="flex flex-col items-center justify-center gap-10 my-20 mx-[170px]"
     >
       <div className="relative">
         <h1 className="py-0 px-7 text-[60px] font-semibold">My projects</h1>

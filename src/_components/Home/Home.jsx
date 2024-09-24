@@ -9,7 +9,7 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full h-screen">
       <Navbar />
       <Hero />
       <About />

@@ -4,19 +4,17 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-gradient":
-          "linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%)",
-        text: "linear-gradient(270deg, #DF8908 10%, #B415FF 100%)",
-        button: "linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%)",
-        text1: "linear-gradient(270deg, #DF8908 80%, #B415FF 100%)",
+        text: "linear-gradient(270deg, #e0c3fc  10%, #4a90e2 100%)",
+        button: "linear-gradient(264deg, #00c9ff -5.09%, #92fe9d 106.28%)",
       },
       colors: {
-        resume: "#B415FF",
+        resume: "#00c9ff",
         text: "#D8D8D8",
-        bgContact: "#32323c",
-        contactColor: "#A0A0A0",
-        footerBg: "#32323B",
+
         footerColor: "a0a0a0",
+      },
+      screens: {
+        xs: "320px",
       },
     },
   },

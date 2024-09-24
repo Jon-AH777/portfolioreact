@@ -43,13 +43,13 @@ const Contact = () => {
       </div>
       <div className="flex gap-20">
         <div className="flex flex-col gap-7">
-          <h1 className="text-[30px] font-bold bg-text1 bg-clip-text text-transparent">
+          <h1 className="text-[30px] font-bold bg-text bg-clip-text text-transparent">
             Contact Me
           </h1>
           <p className="max-w-[550px] text-black text-lg">
             A simple step away to connect with me
           </p>
-          <div className="flex flex-col gap-7 text-black text-[22px]">
+          <div className="flex flex-col gap-6 text-black text-xl">
             {[
               { icon: mail_icon, text: "sanarung.subba@gmail.com" },
               { icon: call_icon, text: "+977 9843641135" },
@@ -61,36 +61,36 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <form onSubmit={onSubmit} className="flex flex-col items-start gap-7">
-          <label htmlFor="" className="text-black text-[22px] font-medium">
+        <form onSubmit={onSubmit} className="flex flex-col items-start gap-2">
+          <label htmlFor="" className="text-black text-2xl font-medium">
             Your Name
           </label>
           <input
-            className="border-solid border-[1px] border-black w-[700px] h-[78px] pl-5 rounded-[4px] bg-white text-black text-[20px]"
+            className="border-solid border-[1px] border-black w-[700px] h-16 pl-5 rounded-[4px] bg-white text-black text-xl"
             type="text"
             placeholder="Enter your name"
             name="name"
           />
-          <label className="text-black text-[22px] font-medium" htmlFor="">
+          <label className="text-black text-2xl font-medium" htmlFor="">
             Your Email
           </label>
           <input
-            className="border-solid border-[1px] border-black w-[700px] h-[78px] pl-5 rounded-[4px] bg-white text-black text-[20px]"
+            className="border-solid border-[1px] border-black w-[700px] h-16 pl-5 rounded-[4px] bg-white text-black text-xl"
             type="email"
             placeholder="Enter your email"
             name="email"
           />
-          <label className="text-black text-[22px] font-medium" htmlFor="">
+          <label className="text-black text-2xl font-medium" htmlFor="">
             Write your message here
           </label>
           <textarea
-            className="border-solid border-[1px] border-black w-[650px]  p-6 rounded-[4px] bg-white text-black text-[20px]"
+            className="border-solid border-[1px] border-black w-[650px] p-6 rounded-[4px] bg-white text-black text-xl"
             name="message"
-            rows="8"
+            rows="4"
             placeholder="Enter your message"
           ></textarea>
           <button
-            className="border-none text-black rounded-[50px] bg-button text-[22px] py-5 px-[60px] mb-12 cursor-pointer duration-300 hover:duration-300 hover:scale-110"
+            className="border-none text-black rounded bg-button text-2xl py-4 px-8 mb-12 cursor-pointer duration-300 hover:duration-300 hover:scale-110"
             type="submit"
           >
             Submit Now

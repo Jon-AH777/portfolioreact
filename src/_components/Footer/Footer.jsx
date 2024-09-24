@@ -4,7 +4,7 @@ import user_icon from "/usericon.jpg";
 
 const Footer = () => {
   return (
-    <div className="my-[50px] mx-[170px] flex flex-col gap-7">
+    <div className="my-[50px] mx-[170px] flex flex-col flex-wrap gap-7">
       <div className="flex justify-between gap-5">
         <img className="h-full w-1/6" src={footer_logo} alt="" />
         <p className="text-[20px] max-w-[400px]">
@@ -21,13 +21,13 @@ const Footer = () => {
               placeholder="Enter your email"
             />
           </div>
-          <div className="text-[20px] py-5 px-[50px] rounded-[50px] cursor-pointer bg-button duration-300 hover:scale-110 hover:duration-300">
+          <div className="text-xl py-5 px-[50px] rounded-[50px] cursor-pointer bg-button duration-300 hover:scale-110 hover:duration-300">
             Subscribe
           </div>
         </div>
       </div>
       <hr />
-      <div className="flex justify-between text-[18px]">
+      <div className="flex justify-between text-lg">
         <p>© 2024 Sanarung Subba. All rights reserved.</p>
         <div className="flex gap-[50px] mb-[50px]">
           <p>Terms of Services</p>
